@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add stock</title>
+    <style>
+        body{
+            background-image: url("img/back.jpg");
+
+        }
+        fieldset{
+            background-color: transparent;
+            width: 20%;
+            height: 300px;
+            position: relative;
+            left: 40%;
+            right: 40%;
+            font-family: Calibri;
+            color: black;
+            border-radius: 20px;
+
+        }
+        fieldset label{
+            font-size: 18px;
+            font-family: Calibri;
+        }
+        fieldset input{
+            font-size: 18px;
+            font-family: Calibri;
+        }
+        @media  screen  and  (max-width: 900px){
+            fieldset{
+                background-color: #a4b0be;
+                width: 200px;
+                height: 250px;
+                position: relative;
+                /*left: 42%;*/
+                /*right: 42%;*/
+                font-family: Calibri;
+            }
+        }
+    </style>
+</head>
+<body>
+<h1 style="position: relative; left:44.5%;right: 30%;"> Add Customer</h1>
+<fieldset>
+    <label>select item id</label>
+    <select style="position: relative;left: 20px">
+        <option >I001</option>
+        <option >I002</option>
+        <option >I003</option>
+        <option >I004</option>
+    </select>
+    <br>
+    <br>
+    <label>Item name : xxxxxxxx</label>
+    <br>
+    <br>
+    <label>Stock available : xxxxxxxxxx</label>
+    <br>
+    <br>
+    <label>new stock amount :</label>
+    <input type="text" placeholder="amount">
+    <br>
+    <br>
+    <br>
+    <a href="items.html"><input type="button" value="Add Stock" style="height: 40px;position: relative;left: 40%;"></a>
+    <br>
+    <a href="items.html"><input type="button" value="Cancel" style="height: 40px;position: relative;left: 42%;top: 10px;"></a>
+</fieldset>
+</body>
+</html>

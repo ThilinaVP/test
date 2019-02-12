@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Item</title>
+    <link rel="stylesheet" href="css/basic%20style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/addinPages.css">
+    <style>
+        .addCancel{
+            top: 400px;
+            left: 40%;
+        }
+        @media all and (max-width: 425px) {
+            #buttons{
+                top: 100px;
+            }
+            #buttons h1 {
+                top: -102px;
+            }
+            section {
+                width: 88%;
+            }
+            fieldset{
+                position: relative;
+                width: 100%;
+                left: 0;
+            }
+            .addCancel{
+                position: relative;
+                left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img src="img/Untitled-2.png" style="margin-right: 0">
+    <h1>VP Whole Sale</h1>
+    <div class="header_adress">
+        <h2 style="margin: 0">TVP sales</h2>
+        <h3 style="margin: 0">Thilina VP</h3>
+        <h4 style="margin: 0">0774681211</h4>
+    </div>
+    <div id="buttons">
+        <h1 style="color: white;">ADD ORDER</h1>
+    </div>
+</header>
+<section>
+    <fieldset>
+        <label>
+            Customer Name :
+        </label>
+        <input type="text" placeholder="Name">
+        <br>
+        <br>
+        <label>search item :</label>
+        <input type="text" placeholder="search">
+        <input type="button" value="Search">
+        <br>
+        <br>
+        <br>
+        <label>Item Name :</label>
+        <br>
+        <br>
+        <label>Available stock  :</label>
+        <br>
+        <br>
+        <label>Qty : </label>
+        <input type="text" placeholder="Qty">
+        <input type="button" value="ADD Item To Order">
+        <br>
+        <br>
+        <br>
+        <br>
+
+    </fieldset>
+    <table width="150px" border="2" style="width: 80%;">
+        <thead style="background-color: #2f3542; color: white">
+        <th>Item Id</th>
+        <th>Item Name</th>
+        <th>qty</th>
+        <th>price</th>
+        </thead>
+        <tbody style="background-color: #a4b0be">
+        <tr>
+            <td>I001</td>
+            <td>rice</td>
+            <td>10kg</td>
+            <td>5000</td>
+        </tr>
+        <tr>
+            <td>I002</td>
+            <td>dhal</td>
+            <td>150 Kg</td>
+            <td>6800</td>
+        </tr>
+        <tr>
+            <td>I003</td>
+            <td>dhal</td>
+            <td>15kg</td>
+            <td>1500</td>
+        </tr>
+        </tbody>
+    </table>
+    <div class="addCancel" style="">
+    <a href="orders.html"><input id="b1" type="button" value="ADD ORDER" ></a>
+    <a href="orders.html"><input id="b2" type="button" value="CANCEL" ></a>
+    </div>
+</section>
+</body>
+</html>

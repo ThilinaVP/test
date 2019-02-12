@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>customer</title>
+    <link rel="stylesheet" href="css/newstyle.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <style>
+        section fieldset{
+            position: relative;
+            top: 100px;
+            width: 500px;
+            height: 300px;
+            left: 300px;
+        }
+    </style>
+</head>
+<body>
+<header style="position: relative;z-index: 12">
+    <div id="logo" style="z-index: 15"> <img src="img/Logo256px (1).png" height=123px width=128px ></div>
+</header>
+<main>
+    <nav id="nav" style="z-index: 10;">
+        <img id="pp" src="img/GalleryT-Vihanga Thathsara Photography-9747.jpg" height="100" width="100"/>
+        <ul id="list_eka">
+            <a href="index.html" style="text-decoration: none"><li>dashboard
+                <img src="img/icons8_Home_64px.png" height="32" width="32" style="padding-bottom: 0;position: relative;
+                top: 5px;"/></li></a>
+            <li>
+                <a href="customers.html" style="text-decoration: none;">
+                    customers
+                    <img src="img/icons8_People_50px.png" height="32" width="32"style="padding-bottom: 0;position: relative;
+                top: 5px;"/></a>
+            </li>
+            <li><a href="items.html"style="text-decoration: none"> items
+                <img src="img/icons8_Briefcase_64px.png" height="32" width="32"style="padding-bottom: 0;position: relative;
+                top: 5px;"/></a></li>
+            <li><a href="orders.html" style="text-decoration: none"> orders
+                <img src="img/icons8_List_50px.png" height="32" width="32"style="padding-bottom: 0;position: relative;
+                top: 5px;"/></a></li>
+        </ul>
+    </nav>
+    <section id="sec1" style="width: 350px;">
+        <input type="text"placeholder="enter customer name" style="position: relative;left: 30px;">
+        <input type="button" value="search" style="position: relative; left: 50px">
+        <br>
+        <a href="addCustomer.html"> <input type="button" value="Add customer" style="position: absolute; left: 250px; top: 40px; background-color: #a4b0be"  ></a>
+    </section>
+    <section>
+        <fieldset style="background-color: #a4b0be;">
+            <label>search results : </label>
+            <br>
+            <div style="position: relative;left:45%">
+            <input type="button" value="delete" style="position: relative; left: 20px">
+            <input type="button" value="update" style="position: relative; left: 20px">
+            <input type="button" value="details" style="position: relative; left: 20px">
+            <input type="button" value="clear" style="position: relative; left: 20px">
+            </div>
+        </fieldset>
+    </section>
+    <section id="sec2" style=" width: 70%;top: 550px">
+        <table width="150px" border="2" style="width: 100%">
+            <thead style="background-color: #2f3542; color: white">
+                <th> ID</th>
+                <th>Name</th>
+                <th>adress</th>
+                <th>Tp</th>
+            </thead>
+            <tbody style="background-color: #a4b0be">
+                <tr>
+                    <td>C001</td>
+                    <td>thilina</td>
+                    <td>galle</td>
+                    <td>077123456</td>
+                </tr>
+                <tr>
+                    <td>C002</td>
+                    <td>dasun</td>
+                    <td>colombo</td>
+                    <td>077123456</td>
+                </tr>
+                <tr>
+                    <td>C003</td>
+                    <td>kavindu</td>
+                    <td>123/A,uluvitike</td>
+                    <td>077123456</td>
+                </tr>
+                <tr>
+                    <td>C004</td>
+                    <td>harindu</td>
+                    <td>karapitiya,Sri Lanka</td>
+                    <td>077123456</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</main>
+</body>
+</html>

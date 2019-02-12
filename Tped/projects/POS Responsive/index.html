@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/basic%20style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <style>
+        @media all and (max-width: 768px){
+            aside{
+                display: none;
+            }
+            .content{
+                width: 100%;
+                left: 0;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/Untitled-2.png"style="margin-right: 0;">
+        <h1 class="nameBord">VP Whole Sale</h1>
+        <div class="header_adress">
+            <h2 style="margin: 0">TVP sales</h2>
+            <h3 style="margin: 0">Thilina VP</h3>
+            <h4 style="margin: 0">0774681211</h4>
+        </div>
+        <div id="buttons">
+            <ul>
+                <li class="current_tab"><a href="index.html">Dashboard</a></li>
+                <li><a href="customers.html">Customers</a></li>
+                <li><a href="items.html">Items</a></li>
+                <li><a href="orders.html">Orders</a></li>
+            </ul>
+        </div>
+    </header>
+    <aside>
+        <ul>
+            <li class="current_tab"><a href="index.html">Monthly Sales</a></li>
+            <!--<li><a href="annualDash.html"> Annual Sales</a></li>-->
+            <a href="addItem.html"><li>add item</li></a>
+            <a href="addOrder.html"><li>add Order</li></a>
+            <a href="addCustomer.html"><li>add customer</li></a>
+        </ul>
+    </aside>
+    <section class="content">
+        <div class="dash">
+        <img id="one" src="img/graph%20.jpg" height="380" width="580" style=""/>
+        <img id="two" src="img/graph 2.jpg" height="349" width="538"style=""/>
+        </div>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device.width initial-scale=1">
+    <title>Items</title>
+    <link rel="stylesheet" href="css/basic%20style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/sub%20styles.css">
+    <style>
+        @media all and (max-width: 425px) {
+            aside{
+                display: none;
+            }
+            body .content{
+                width: 100%;
+                left: 0;
+            }
+            body .content pre{
+                width: 100%;
+                left: 0;
+                top: 30px;
+            }
+            body .content img{
+                position: relative;
+                left: 0;
+                top: 0;
+            }
+            aside #search{
+                display: block;
+            }
+            fieldset{
+                position: relative;
+                top: 0;
+            }
+            table{
+                margin-left: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img src="img/Untitled-2.png" style="margin-right: 0">
+    <h1>VP Whole Sale</h1>
+    <div class="header_adress">
+        <h2 style="margin: 0">TVP sales</h2>
+        <h3 style="margin: 0">Thilina VP</h3>
+        <h4 style="margin: 0">0774681211</h4>
+    </div>
+    <div id="buttons">
+        <ul>
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="customers.html">Customers</a></li>
+            <li><a href="items.html">Items</a></li>
+            <a href="orders.html"><li class="current_tab">Orders</li></a>
+        </ul>
+    </div>
+</header>
+<aside>
+    <div class="add">
+    <a href="addOrder.html"><input type="button" value="Add Order"></a>
+    </div>
+    <div id="search" >
+        <input type="text" placeholder="search order" >
+        <img src="img/icons8_Search_64px.png" height="32" width="32"/>
+    </div>
+    <ul>
+        <li>001</li>
+        <li>002</li>
+    </ul>
+</aside>
+<section class="content">
+    <div class="mobileSearch">
+        <input type="text" placeholder="search" style="width: 85%;height: 25px">
+        <img src="img/icons8_Search_64px.png" style="float: right; position: relative; left: 0;top: 0;" height="32" width="32"/>
+        <a href="addOrder.html"><input type="button" value="Add Order" style="width: 100px;height: 60px;position: relative;left: 40%;top: 15px;color: white;background-color: #333333"></a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2 style="margin-left: 30px">All Orders</h2>
+    <table width="150px" border="2" style="width: 80%;margin-left: 50px">
+        <thead style="background-color: #2f3542; color: white">
+        <th>Order ID</th>
+        <th>Items</th>
+        <th>Price</th>
+        <th>Delivery date</th>
+        </thead>
+        <tbody style="background-color: #a4b0be">
+        <tr>
+            <td>001</td>
+            <td>rice,dhal</td>
+            <td>5000.00</td>
+            <td>2018/12/01</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>rice</td>
+            <td>5000.00</td>
+            <td>2018/11/26</td>
+        </tr>
+        <tr>
+            <td>003</td>
+            <td>dhal</td>
+            <td>3000.00</td>
+            <td>2019/01/01</td>
+        </tr>
+        <tr>
+            <td>xxxxxxxxxx</td>
+            <td>xxxxxxxxxx</td>
+            <td>xxxxxxxxxx</td>
+            <td>xxxxxxxxxx</td>
+        </tr>
+        <tr>
+            <td>xxxxxxxxxx</td>
+            <td>xxxxxxxxxx</td>
+            <td>xxxxxxxxxx</td>
+            <td>xxxxxxxxxx</td>
+        </tr>
+        <tr>
+            <td>xxxxxxxxxx</td>
+            <td>xxxxxxxxxx</td>
+            <td>xxxxxxxxxx</td>
+            <td>xxxxxxxxxx</td>
+        </tr>
+        <tr>
+            <td>xxxxxxxxxx</td>
+            <td>xxxxxxxxxx</td>
+            <td>xxxxxxxxxx</td>
+            <td>xxxxxxxxxx</td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+
+</body>
+</html>

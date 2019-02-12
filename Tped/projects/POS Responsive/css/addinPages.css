@@ -1,0 +1,77 @@
+#buttons{
+    width: 100%;
+    background-color: #333333;
+    text-align: center;
+    height: 80px;
+    position: relative;
+    top: -16px;
+}
+section{
+    position: relative;
+    top: 160px;
+}
+#buttons h1{
+    position: relative;
+    right: 0;
+    width: 100%;
+    text-align: center;
+}
+fieldset{
+    width: 60%;
+    height: 340px;
+    position: relative;
+    top: 50px;
+    left: 20%;
+}
+table{
+    position: relative;
+    top: 300px;
+    left: 10%;
+}
+.addCancel {
+    position: relative;
+    left: 19%;
+    top: 30px;
+    margin-bottom: 40px;
+}
+.addCancel input{
+    width: 150px;
+    height: 80px;
+    font-size: 20px;
+    font-family: Calibri;
+}
+.addCancel #b1{
+    background-color: transparent;
+}
+.addCancel #b2{
+    background-color: transparent;
+}
+fieldset input{
+    border: 1px solid black;
+    width: 350px;
+    height: 25px;
+}
+.addCancel #b1:hover{
+    background-color: #2f3542;
+    color: white;
+    transition: 0.4s;
+}
+.addCancel #b2:hover{
+    background-color: #2f3542;
+    color: white;
+    transition: 0.4s;
+}
+@media all and (max-width: 1024px){
+    fieldset{
+        height: 450px;
+        width: 50%;
+    }
+
+}
+@media all and (max-width: 768px){
+    fieldset{
+        height: 450px;
+        width: 35%;
+    }
+
+}

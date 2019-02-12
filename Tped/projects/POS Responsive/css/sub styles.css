@@ -1,0 +1,116 @@
+#search{
+    position: fixed;
+    left: 0;
+    top: 22%;
+    width: 17%;
+    font-size: 20px;
+    font-family: Calibri;
+    height: 35px;
+    float: right;
+}
+#search input{
+    height: 35px;
+    width: 80%;
+}
+#search img{
+    position: relative;
+    top: 30%;
+}
+body aside ul{
+    overflow-y: auto;
+    top: 38%;
+    height: 60%;
+}
+fieldset{
+    float: right;
+    position: relative;
+    top: 20px;
+}
+fieldset input{
+    background-color: #34e7e4;
+    height: 80px;
+    width: 120px;
+}
+body .content pre{
+    float: right;
+    position: relative;
+    right: 70%;
+}
+table{
+    width: 80%;
+    margin-left: 50px;
+}
+.add input{
+    position: relative;
+    top: 220px;
+    width: 200px;
+    height: 60px;
+    background-color: #1e272e;
+    color: white;
+    font-size: 27px;
+    font-family: Calibri;
+    align-content: center;
+    margin-left: 15px;
+}
+.table h2{
+    margin-left: 15px;
+}
+.table{
+    position: relative;
+    top: 250px;
+}
+@media all and (max-width: 1024px)  {
+    #search input{
+        width: 70%;
+    }
+    body aside ul{
+        overflow-y: auto;
+        top: 37%;
+        height: 80%;
+    }
+    fieldset{
+        position: relative;
+        right: 0;
+        top: 220px;
+    }
+    body .content pre{
+        float: right;
+        position: relative;
+        right: 60%;
+        top: 17px;
+    }
+    .table{
+        position: relative;
+        top: 250px;
+    }
+    .add input{
+        width: 170px;
+        top: 190px;
+        margin-left: 0;
+    }
+
+}
+@media all and (max-width: 768px){
+    #search input{
+        width: 60%;
+    }
+    .add input{
+        width: 130px;
+        top: 189px;
+        font-size: 20px;
+    }
+    body aside ul{
+        left: -39px;
+    }
+    body .content pre{
+        right: 45%;
+    }
+    .table{
+        top: 300px;
+    }
+    @media all and (max-height: 617px){
+        .add input{
+            top: 195px;
+        }
+    }
+}

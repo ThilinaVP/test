@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>addItem</title>
+    <style>
+        body{
+            background-image: url("img/back.jpg");
+
+        }
+        fieldset{
+            background-color: transparent;
+            width: 20%;
+            height: 250px;
+            position: relative;
+            left: 40%;
+            right: 40%;
+            font-family: Calibri;
+            color: black;
+            border-radius: 20px;
+        }
+        fieldset label{
+            font-size: 18px;
+            font-family: Calibri;
+        }
+        fieldset input{
+            font-size: 18px;
+            font-family: Calibri;
+        }
+        @media  screen  and  (max-width: 900px){
+            fieldset{
+                background-color: #a4b0be;
+                width: 200px;
+                height: 250px;
+                position: relative;
+                /*left: 42%;*/
+                /*right: 42%;*/
+                font-family: Calibri;
+            }
+        }
+    </style>
+</head>
+<body>
+<h1 style="position: relative; left:47%;right: 30%;"> Add Item</h1>
+<fieldset>
+    <label>Item Name</label>
+    <br>
+    <input type="text" placeholder="Item name" >
+    <br>
+    <label>Initial stock</label>
+    <br>
+    <input type="text" placeholder="Initial stock">
+    <br>
+    <label>Unit price</label>
+    <br>
+    <input type="text" placeholder="Unit price">
+    <br>
+    <br>
+    <br>
+    <a href="items.html"><input type="button" value="Add Item"></a>
+    <a href="addCustomer.html"><input type="reset" value="reset"></a>
+    <a href="customers.html"><input type="button" value="cancel" ></a>
+</fieldset>
+</body>
+</html>

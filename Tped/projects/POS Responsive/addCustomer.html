@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Customer</title>
+    <link rel="stylesheet" href="css/basic%20style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/addinPages.css">
+    <!--<style>-->
+        <!--#buttons{-->
+            <!--width: 100%;-->
+            <!--background-color: #333333;-->
+            <!--text-align: center;-->
+        <!--}-->
+        <!--fieldset{-->
+            <!--width: 30%;-->
+            <!--height: 300px;-->
+            <!--position: relative;-->
+            <!--top: 250px;-->
+            <!--left: 35%;-->
+            <!--background-color: gainsboro;-->
+        <!--}-->
+    <!--</style>-->
+    <style>
+        @media all and (max-width: 425px) {
+            #buttons{
+                top: 100px;
+            }
+            #buttons h1 {
+                top: -102px;
+            }
+            section {
+                width: 100%;
+            }
+            fieldset{
+                position: relative;
+                width: 100%;
+                left: 0;
+            }
+            .addCancel{
+                left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img src="img/Untitled-2.png" style="margin-right: 0">
+    <h1>VP Whole Sale</h1>
+    <div class="header_adress">
+        <h2 style="margin: 0">TVP sales</h2>
+        <h3 style="margin: 0">Thilina VP</h3>
+        <h4 style="margin: 0">0774681211</h4>
+    </div>
+    <div id="buttons">
+        <h1 style="color: white;">ADD CUSTOMER</h1>
+    </div>
+</header>
+<section>
+    <fieldset>
+        <label>
+            Customer Name :
+        </label>
+        <br>
+        <input type="text" placeholder="Name">
+        <br>
+        <br>
+        <label>Address :</label>
+        <br>
+        <input type="text" placeholder="Address">
+        <br>
+        <br>
+        <label>TP:</label>
+        <br>
+        <input type="text" placeholder="TP">
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="addCancel">
+        <a href="customers.html"><input id="b1" type="button" value="ADD CUSTOMER"></a>
+        <a href="customers.html"><input id="b2" type="button" value="CANCEL"></a>
+        </div>
+
+    </fieldset>
+</section>
+</body>
+</html>

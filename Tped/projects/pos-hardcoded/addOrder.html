@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>add order</title>
+    <style>
+        body{
+            background-image: url("img/back.jpg");
+
+        }
+        fieldset{
+            background-color: transparent;
+            width: 50%;
+            height: 250px;
+            position: relative;
+            left: 25%;
+            right: 25%;
+            font-family: Calibri;
+            border-radius: 35px;
+        }
+        fieldset label{
+            font-size: 18px;
+            font-family: Calibri;
+        }
+        fieldset input{
+            font-size: 18px;
+            font-family: Calibri;
+        }
+        @media  screen  and  (max-width: 900px){
+            fieldset{
+                background-color: #a4b0be;
+                width: 200px;
+                height: 250px;
+                position: relative;
+                /*left: 42%;*/
+                /*right: 42%;*/
+                font-family: Calibri;
+            }
+        }
+        body table td{
+            background-color: #a4b0be;
+        }
+        body table{
+            background-color: #a4b0be;
+        }
+    </style>
+</head>
+<body>
+<fieldset >
+    <br>
+    <lable>select customer ID</lable>
+    <select style="position: relative;left: 20px">
+        <option >C001</option>
+        <option >C002</option>
+        <option >C003</option>
+        <option >C004</option>
+    </select>
+
+    <!--<input type="text"placeholder="enter customer name" style="position: relative;left: 16px">-->
+    <!--<input type="button" value="search" style="position: relative; left: 20px">-->
+    <br>
+    <div style="  position: relative; left: 60%;">
+        <input type="button" value="delete entry" style="position: relative; left: 20px">
+        <!--<input type="button" value="update" style="position: relative; left: 20px">-->
+        <!--<input type="button" value="details" style="position: relative; left: 20px">-->
+        <input type="button" value="clear" style="position: relative; left: 20px">
+    </div>
+    <label>select item id</label>
+    <select style="position: relative;left: 20px">
+        <option >I001</option>
+        <option >I002</option>
+        <option >I003</option>
+        <option >I004</option>
+    </select>
+    <br>
+    <br>
+    <label>Item name : xxxxxxxx</label>
+    <br>
+    <br>
+    <label>Stock available : xxxxxxxxxx</label>
+    <br>
+    <br>
+    <label>QTY:</label>
+    <input type="text" placeholder="QTY">
+    <input type="button" value="Add to the order">
+</fieldset>
+<section id="sec2" style=" width: 70%;position:relative; top: 15%; left: 15%; top: 100px;">
+    <table width="100px" border="2" style="width: 100%;">
+        <thead style="background-color: #2f3542; color: white">
+        <th> item No</th>
+        <th> item ID</th>
+        <th>QTY</th>
+        <th>unit price</th>
+        <th>total price</th>
+        </thead>
+        <tbody>
+        <tr>
+            <td>xxxxxxxx</td>
+            <td>xxxxxxxx</td>
+            <td>xxxxxxxx</td>
+            <td>xxxxxxxx</td>
+            <td>xxxxxxxx</td>
+        </tr>
+        <tr>
+            <td>xxxxxxxx</td>
+            <td>xxxxxxxx</td>
+            <td>xxxxxxxx</td>
+            <td>xxxxxxxx</td>
+            <td>xxxxxxxx</td>
+        </tr>
+        <tr>
+            <td>xxxxxxxx</td>
+            <td>xxxxxxxx</td>
+            <td>xxxxxxxx</td>
+            <td>xxxxxxxx</td>
+            <td>xxxxxxxx</td>
+        </tr>
+        <tr>
+            <td>xxxxxxxx</td>
+            <td>xxxxxxxx</td>
+            <td>xxxxxxxx</td>
+            <td>xxxxxxxx</td>
+            <td>xxxxxxxx</td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+<!--<fieldset>-->
+    <!--<pre>First Name     </pre>-->
+    <!--<input type="text" placeholder="first name" >-->
+    <!--<br>-->
+    <!--<pre>Last Name      </pre>-->
+    <!--<input type="text" placeholder="Last name">-->
+    <!--<br>-->
+    <!--<pre>Address        </pre>-->
+    <!--<input type="text" placeholder="Address">-->
+    <!--<br>-->
+    <!--<pre>Telephone no   </pre>-->
+    <!--<input type="text" placeholder="TP">-->
+    <!--<br>-->
+    <!--<br>-->
+    <!--<a href="customers.html"><input type="button" value="Add Customer"></a>-->
+    <!--<a href="addCustomer.html"><input type="reset" value="reset"></a>-->
+<!--</fieldset>-->
+<fieldset style="width: 20%; height: 40px;position: relative; top: 155px;left: 40%;">
+    <lable>Delivery date</lable>
+<input type="text" placeholder="delivery date">
+</fieldset>
+<a href="orders.html"><input type="button" value="cancel order" style="position: relative;top: 200px; left: 800px;background-color: gainsboro;width: 150px;height: 70px;"></a>
+<a href="orders.html"><input type="button" value="Confirm Order" style="position: relative;top: 200px; left:400px;background-color: gainsboro;width: 150px;height: 70px;"></a>
+</body>
+</html>

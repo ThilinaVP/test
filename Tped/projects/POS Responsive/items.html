@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device.width initial-scale=1">
+    <title>Items</title>
+    <link rel="stylesheet" href="css/basic%20style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/sub%20styles.css">
+    <style>
+        @media all and (max-width: 425px) {
+            aside{
+                display: none;
+            }
+            body .content{
+                width: 100%;
+                left: 0;
+            }
+            body .content pre{
+                width: 100%;
+                left: 0;
+                top: 30px;
+            }
+            body .content img{
+                position: relative;
+                left: 0;
+                top: 0;
+            }
+            aside #search{
+                display: block;
+            }
+            fieldset{
+                position: relative;
+                top: 0;
+            }
+            .table{
+                position: relative;
+                top: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img src="img/Untitled-2.png" style="margin-right: 0">
+    <h1>VP Whole Sale</h1>
+    <div class="header_adress">
+        <h2 style="margin: 0">TVP sales</h2>
+        <h3 style="margin: 0">Thilina VP</h3>
+        <h4 style="margin: 0">0774681211</h4>
+    </div>
+    <div id="buttons">
+        <ul>
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="customers.html">Customers</a></li>
+            <li class="current_tab"><a href="items.html">Items</a></li>
+            <li><a href="orders.html">Orders</a></li>
+        </ul>
+    </div>
+</header>
+<aside>
+    <div class="add">
+    <a href="addItem.html"><input type="button" value="Add Item" ></a>
+    </div>
+    <div id="search" >
+        <input type="text" placeholder="search" >
+        <img src="img/icons8_Search_64px.png" height="32" width="32"/>
+    </div>
+
+    <ul>
+        <li class="current_tab"><a href="items.html">Rice-brown</a></li>
+        <li><a href="whiteRice.html">Rice-white</a></li>
+        <li>Toothpate</li>
+        <li>Tooth-brushes</li>
+        <li>dhal</li>
+        <li>xxxxxxx</li>
+        <li>xxxxxxx</li>
+        <li>xxxxxxx</li>
+        <li>xxxxxxx</li>
+        <li>xxxxxxx</li>
+        <li>xxxxxxx</li>
+        <li>xxxxxxx</li>
+        <li>xxxxxxx</li>
+        <li>xxxxxxx</li>
+        <li>xxxxxxx</li>
+        <li>xxxxxxx</li>
+        <li>xxxxxxx</li>
+
+
+    </ul>
+</aside>
+<section class="content">
+    <div class="mobileSearch">
+        <input type="text" placeholder="search" style="width: 85%;height: 25px">
+        <img src="img/icons8_Search_64px.png" style="float: right; position: relative; left: 0;top: 0;" height="32" width="32"/>
+        <a href="addItem.html"><input type="button" value="Add Item" style="width: 100px;height: 60px;position: relative;left: 40%;top: 15px;color: white;background-color: #333333"></a>
+    </div>
+    <img src="img/0000586_rankey-red-rice-10lb.jpg" height="100" width="100" style="margin: 25px;margin-left: 60px"/>
+    <pre>
+        Item ID : I001
+
+        Name : Rice-Brown
+
+        Unit Price : 65/=
+
+        Stock : 100kg
+
+    </pre>
+    <fieldset>
+        <input type="button" value="Update">
+        <input type="button" value="Delete">
+        <a href="Add%20Stock.html"><input type="button" value="Add Stock"></a>
+    </fieldset>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="table">
+    <h2 style="margin-left: 30px">Stocks received</h2>
+    <table width="150px" border="2">
+        <thead style="background-color: #2f3542; color: white">
+        <th>Date</th>
+        <th>Stock recipt No</th>
+        <th>stock qty</th>
+        <th>price</th>
+        </thead>
+        <tbody style="background-color: #a4b0be">
+        <tr>
+            <td>2018/12/01</td>
+            <td>15785</td>
+            <td>100kg</td>
+            <td>50000</td>
+        </tr>
+        <tr>
+            <td>2018/11/01</td>
+            <td>125432</td>
+            <td>150 Kg</td>
+            <td>68000</td>
+        </tr>
+        <tr>
+            <td>2019/01/01</td>
+            <td>196584</td>
+            <td>150kg</td>
+            <td>15000</td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+</section>
+
+</body>
+</html>
